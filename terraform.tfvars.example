@@ -1,0 +1,15 @@
+environment_id = "dev-john-featurex"
+region        = "eu-west-2"
+
+# Database credentials
+db_username = "postgres"
+db_password = "your_secure_password_here"
+db_name     = "appdb"
+
+# Instance types (free tier eligible)
+web_instance_type = "t3.micro"
+app_instance_type = "t3.micro"
+db_instance_type  = "db.t3.micro"
+
+# Storage
+db_allocated_storage = 20
