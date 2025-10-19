@@ -117,7 +117,7 @@ Provider → VPC → Subnets → Security Groups → EC2 & RDS → Full Environm
 
 ### 🎉 Success Output
 
-![deployment output](./assets/deployment.png)
+![deployment output](./assets/deploy.png)
 
 ---
 
@@ -125,6 +125,7 @@ Provider → VPC → Subnets → Security Groups → EC2 & RDS → Full Environm
 
 ```
 iac-factory/
+├── assets/                     # Images and demo video
 ├── main.tf                     # VPC, networking, security groups
 ├── provider.tf                 # Cloud provider configuration
 ├── ec2.tf                      # EC2 instances & configurations
@@ -170,6 +171,10 @@ ssh -i .ssh/id_rsa ubuntu@<app-tier-ip>
 psql -h <host> -p 5432 -U <username> -d <database_name>
 ```
 
+![web server](./assets/web-server.png)
+![app server](./assets/app-server.png)
+![db access](./assets/db-access.png)
+
 ### 🧪 Testing Environment
 
 ```bash
@@ -186,6 +191,8 @@ db_allocated_storage = 50
 ./infra.sh destroy
 # Confirmation required: "Type environment ID to confirm"
 ```
+
+![destroy output](./assets/destroy.png)
 
 ---
 
