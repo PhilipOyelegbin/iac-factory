@@ -272,7 +272,7 @@ This project demonstrates enterprise level Infrastructure as Code skills suitabl
 
 **🚀 Live Demo**:
 
-![demo](./assets/demo.mp4)
+https://github.com/user-attachments/assets/19404cc0-5ae2-4dc3-92ee-610de3c5eb24
 
 > **⭐ "Transforming cloud infrastructure from manual overhead to strategic advantage through Infrastructure as Code excellence."**
 
